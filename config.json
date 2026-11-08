@@ -1,0 +1,29 @@
+
+{
+    "project_name": "Handwritten Digit Recognition",
+    "model_version": "1.0",
+    "selected_model": "RBF SVM",
+    "model_file": "artifacts/best_model.joblib",
+    "image": {
+        "height": 28,
+        "width": 28,
+        "features": 784,
+        "supported_formats": ["JPEG", "PNG"],
+        "minimum_dimensions": [28, 28],
+        "maximum_dimensions": [5000, 5000]
+    },
+    "preprocessing": {
+        "method": "Pixel normalization",
+        "input_range": [0, 255],
+        "output_range": [0, 1],
+        "data_type": "float32"
+    },
+    "training": {
+        "algorithm": "Support Vector Machine",
+        "kernels_compared": ["Linear", "RBF"],
+        "selected_kernel": "RBF"
+    },
+    "evaluation": {
+        "test_accuracy": 0.9826
+    }
+}

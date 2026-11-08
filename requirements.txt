@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn==1.7.2
+scipy
+joblib
+pillow
+opencv-python-headless
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+mlflow

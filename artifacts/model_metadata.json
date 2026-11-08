@@ -1,0 +1,18 @@
+
+{
+    "model_name": "Handwritten Digit Recognition SVM",
+    "model_version": "1.0",
+    "model_type": "Support Vector Machine",
+    "selected_kernel": "RBF",
+    "model_file": "best_model.joblib",
+    "dataset": "MNIST",
+    "input_shape": [28, 28],
+    "input_features": 784,
+    "preprocessing": "Flattening and pixel normalization",
+    "test_metrics": {
+        "accuracy": 0.9826,
+        "macro_precision": 0.9826,
+        "macro_recall": 0.9825,
+        "macro_f1": 0.9825
+    }
+}
